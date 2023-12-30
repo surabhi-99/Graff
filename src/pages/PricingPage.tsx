@@ -34,10 +34,11 @@ const PricingPage = () => {
       support: '24/7 phone + email',
       customPDF: 'Ability to upload custom PDFs',
     },
-  } as Record<'Basic' | 'Pro' | 'Enterprise', PlanDetails>;
+  } as Record<string | number | symbol, PlanDetails>;
 
   return (
-    <div className="container mx-auto p-8">
+    <div className='bg-gray-900'>
+    <div className="container mx-auto p-8 bg-gray-800">
       <h1 className="text-3xl font-semibold mb-6">Choose a Plan</h1>
       <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
         {Object.keys(planDetails).map((plan) => (
@@ -95,6 +96,7 @@ const PricingPage = () => {
           )}
         </div>
       </div>
+    </div>
     </div>
   );
 };

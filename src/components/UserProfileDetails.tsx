@@ -14,7 +14,7 @@ const UserProfileDetails: React.FC<UserProfileDetailsProps> = ({
   bio,
 }) => {
   return (
-    <div className="bg-custom shadow-md p-4 rounded-md">
+    <div className="bd-gray-800 shadow-md p-4 rounded-md">
       <div className="flex items-center">
       <img src={profilePhoto} alt="Profile" className="w-16 h-16 rounded-full mr-4" />
         <div>
