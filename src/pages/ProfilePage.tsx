@@ -6,7 +6,7 @@ import RecentActivityFeed from "../components/RecentActivityFeed";
 import SavedGraphsList from "../components/SavedGraphsList";
 import Buttons from '../components/Buttons';
 import LinksToFavouritesAndCollections from "../components/LinksToFavouritesAndCollections";
-import profilePhoto from '../img/profile.jpg';
+import profilePhoto from '../img/profile2.jpg';
 
 const savedGraphsData = [
   { id: 1, title: "Graph 1", dateCreated: "Dec 20, 2023" },
